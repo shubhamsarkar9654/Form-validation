@@ -1,0 +1,26 @@
+.form-container {
+    position: absolute;
+    top: 15vh;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 #000;
+}
+
+.errorMessage {
+    color: red;
+    font-size: 0.75em;
+    display: relative;
+}
+
+input {
+    height: 4vh;
+    padding: 10px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #cfcfcf;
+}
+
+input.error {
+    border: 1px solid red;
+} 
